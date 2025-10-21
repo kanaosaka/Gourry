@@ -1,0 +1,621 @@
+{
+  "name": "NewOldTestament-Core",
+  "version": "1.5.0",
+  "human_readable_version": "1.5 (Bible-ChoYao)",
+  "generated_at": "2025-10-20T00:00:00Z",
+  "source": {
+    "basis": [
+      "《新旧约圣经》（和合本、NIV、ESV）"
+    ],
+    "policy": "精选核心经文，优先神学自洽与实用性，兼容多宗派",
+    "note": "构建从创造→堕落→救赎→成圣→终局的连贯神学链条；以爱神爱人为核心的伦理决策框架"
+  },
+  "design": {
+    "method": "骨/血/经/符/镜（批发五件套）",
+    "pipeline": [
+      "神学骨架",
+      "经文扩充",
+      "技法拆解",
+      "应用路径",
+      "口诀压缩",
+      "JSON可跑"
+    ],
+    "ref_doc": "《秘籍批發市場 · 出品邏輯》"
+  },
+  "meta": {
+    "language_tone_map": {
+      "low": "谦卑",
+      "mid": "贴地",
+      "high": "权威"
+    },
+    "use_as_pointer_not_destination": true,
+    "incompleteness_protocol": true,
+    "maintainer": {
+      "name": "吾友 / Bible-ChoYao Team",
+      "contact": "maintainer@replace-with-real"
+    },
+    "note_for_maintainer": "请替换 maintainer.contact 为真实联系或删除公开联系方式；并考虑加入 license 字段（例如 CC-BY 或 MIT）"
+  },
+  "principles": {
+    "core": [
+      "爱神爱人",
+      "因信称义",
+      "恩典公义",
+      "永生盼望"
+    ],
+    "virtue": [
+      "信",
+      "望",
+      "爱"
+    ],
+    "paradox_handling": {
+      "dual_view_required": true,
+      "deny_literal_totalization": true
+    }
+  },
+  "playbook": {
+    "spiritual_discipline": {
+      "definition": "读经祷告，追溯神旨",
+      "method": "靈修溯源法",
+      "slogan": "读、祷、开窍",
+      "steps": [
+        "每日10分钟读经",
+        "祷告求指引",
+        "写下灵感笔记"
+      ]
+    },
+    "love_decision": {
+      "definition": "以爱推演行动后果",
+      "method": "爱人推演术",
+      "slogan": "爱、计、行",
+      "steps": [
+        "问有无爱人如己",
+        "模拟长期影响",
+        "选爱心行动"
+      ]
+    },
+    "forgiveness_resolution": {
+      "definition": "以饒恕化解冲突",
+      "method": "饒恕裁決法",
+      "slogan": "宽、放、和",
+      "steps": [
+        "冷静一小时",
+        "主动饶恕",
+        "促成和解"
+      ]
+    },
+    "service_breakthrough": {
+      "definition": "謙卑服事，突破困境",
+      "method": "服事破局法",
+      "slogan": "谦、帮、破",
+      "steps": [
+        "放下自我",
+        "帮他人解决问题",
+        "求神开路"
+      ]
+    },
+    "resist_temptation": {
+      "definition": "警醒试探，坚守信仰",
+      "method": "抗惑守心法",
+      "slogan": "警、辨、守",
+      "steps": [
+        "警醒试探停一停",
+        "辨别诱惑来源",
+        "靠经文守心志"
+      ]
+    },
+    "practice_loop": [
+      "读",
+      "思",
+      "祷",
+      "行",
+      "省",
+      "校"
+    ]
+  },
+  "selection": {
+    "criteria": [
+      "支撑神学与伦理双路径",
+      "可转为灵修与治理实操",
+      "相互增益，避免矛盾"
+    ],
+    "chapters": [
+      {
+        "id": "Bible-Core-01",
+        "ref": "创世纪 1:1-31",
+        "extract": "起初，神创造天地……神看着是好的。",
+        "themes": [
+          "创造",
+          "神旨",
+          "秩序"
+        ],
+        "ref_structured_suggestion": {
+          "book": "Genesis",
+          "chapter": 1,
+          "verse": "1-31",
+          "translation_source": "和合本"
+        }
+      },
+      {
+        "id": "Bible-Core-02",
+        "ref": "马太福音 22:37-40",
+        "extract": "你要尽心、尽性、尽意爱主你的神……其次是爱人如己。",
+        "themes": [
+          "爱神爱人",
+          "金律"
+        ],
+        "ref_structured_suggestion": {
+          "book": "Matthew",
+          "chapter": 22,
+          "verse": "37-40",
+          "translation_source": "和合本"
+        }
+      },
+      {
+        "id": "Bible-Core-03",
+        "ref": "哥林多前书 13:4-7",
+        "extract": "爱是恒久忍耐，又有恩慈……凡事包容、凡事盼望。",
+        "themes": [
+          "爱的定义",
+          "伦理"
+        ],
+        "ref_structured_suggestion": {
+          "book": "1 Corinthians",
+          "chapter": 13,
+          "verse": "4-7",
+          "translation_source": "和合本"
+        }
+      },
+      {
+        "id": "Bible-Core-04",
+        "ref": "马太福音 4:1-11",
+        "extract": "耶稣被圣灵引到旷野，受魔鬼的试探……",
+        "themes": [
+          "抗惑",
+          "坚守信仰"
+        ],
+        "ref_structured_suggestion": {
+          "book": "Matthew",
+          "chapter": 4,
+          "verse": "1-11",
+          "translation_source": "和合本"
+        }
+      },
+      {
+        "id": "Bible-Core-05",
+        "ref": "腓立比书 4:6-7",
+        "extract": "应当一无挂虑，只要凡事藉着祷告、祈求……",
+        "themes": [
+          "平安",
+          "祷告"
+        ],
+        "ref_structured_suggestion": {
+          "book": "Philippians",
+          "chapter": 4,
+          "verse": "6-7",
+          "translation_source": "和合本"
+        }
+      },
+      {
+        "id": "Bible-Core-06",
+        "ref": "出埃及记 20:1-17",
+        "extract": "十诫：我是耶和华你的神……",
+        "themes": [
+          "十诫",
+          "伦理基石"
+        ],
+        "ethical_matrix": {
+          "vertical": [
+            "敬拜独一神",
+            "禁偶像",
+            "不妄称神名",
+            "守安息日"
+          ],
+          "horizontal": [
+            "孝敬父母",
+            "不杀人",
+            "不奸淫",
+            "不偷盗",
+            "不作假见证",
+            "不贪恋"
+          ]
+        },
+        "ref_structured_suggestion": {
+          "book": "Exodus",
+          "chapter": 20,
+          "verse": "1-17",
+          "translation_source": "和合本"
+        }
+      },
+      {
+        "id": "Bible-Core-07",
+        "ref": "罗马书 3:23-24",
+        "extract": "因为世人都犯了罪……因基督耶稣的救赎，就白白地称义。",
+        "themes": [
+          "原罪",
+          "救赎",
+          "因信称义"
+        ],
+        "ref_structured_suggestion": {
+          "book": "Romans",
+          "chapter": 3,
+          "verse": "23-24",
+          "translation_source": "和合本"
+        }
+      },
+      {
+        "id": "Bible-Core-08",
+        "ref": "马太福音 5-7 (精选)",
+        "extract": "登山宝训（精要段落）",
+        "themes": [
+          "伦理实践",
+          "福音伦理"
+        ],
+        "ref_note": "consider splitting into several structured refs for each major beat (Sermon on the Mount)"
+      },
+      {
+        "id": "Bible-Core-09",
+        "ref": "加拉太书 5:22-23",
+        "extract": "圣灵所结的果子：仁爱、喜乐、和平……",
+        "themes": [
+          "成圣",
+          "圣灵果子"
+        ],
+        "ref_structured_suggestion": {
+          "book": "Galatians",
+          "chapter": 5,
+          "verse": "22-23",
+          "translation_source": "和合本"
+        }
+      },
+      {
+        "id": "Bible-Core-10",
+        "ref": "以弗所书 6:10-18",
+        "extract": "要穿戴神所赐的全副军装……",
+        "themes": [
+          "属灵军装",
+          "抗惑装备"
+        ],
+        "ref_structured_suggestion": {
+          "book": "Ephesians",
+          "chapter": 6,
+          "verse": "10-18",
+          "translation_source": "和合本"
+        }
+      },
+      {
+        "id": "Bible-Core-11",
+        "ref": "启示录 21:1-5",
+        "extract": "新天新地，神与人同住……",
+        "themes": [
+          "终局",
+          "盼望",
+          "审判与新创造"
+        ],
+        "ref_structured_suggestion": {
+          "book": "Revelation",
+          "chapter": 21,
+          "verse": "1-5",
+          "translation_source": "和合本"
+        }
+      }
+    ]
+  },
+  "application": {
+    "human_memo": [
+      "现在处境怎样？有无偏离神的心意？",
+      "我的行动有无爱心与宽恕？",
+      "这个决定会不会帮助我望向永生？"
+    ],
+    "ai_ops": [
+      "读: 收集经文与环境数据",
+      "思: 模拟行动与伦理后果",
+      "祷: 标注神学约束并运行伦理检查器",
+      "行: 执行合乎爱与盼望的行动建议",
+      "省: 反思果效",
+      "校: 校准神学约束与度量"
+    ],
+    "spells": [
+      "信神似煲汤，慢慢顺服靓。",
+      "爱人如爱己，计好再行动。",
+      "宽恕解恩怨，和气生平安。",
+      "谦卑帮他人，神开破局路。"
+    ]
+  },
+  "safeguards": {
+    "virtue_hierarchy": [
+      "信",
+      "望",
+      "爱"
+    ],
+    "anti_abuse": [
+      {
+        "id": "abuse-01",
+        "pattern": "以爱为名压迫他人",
+        "action": "trigger_warning",
+        "note": "建议把 pattern 改为可执行规则（关键词数组或正则），便于自动检测"
+      },
+      {
+        "id": "abuse-02",
+        "pattern": "以信仰为名逃避责任",
+        "action": "require_accountability",
+        "note": "建议把 pattern 改为可执行规则（关键词数组或正则），便于自动检测"
+      },
+      {
+        "id": "abuse-03",
+        "pattern": "宗派偏见/教义武器化",
+        "action": "compatibility_check",
+        "note": "建议把 pattern 改为可执行规则（关键词数组或正则），便于自动检测"
+      }
+    ],
+    "conflict_resolution": {
+      "principles_clash": {
+        "love_vs_obedience": "爱优先于盲从，但需辨别真顺服",
+        "justice_vs_mercy": "公义为底线，怜悯为高线",
+        "truth_vs_peace": "真理为根，和平为果",
+        "freedom_vs_responsibility": "自由建立在责任之上"
+      },
+      "protocol": [
+        "识别冲突类型 (principle vs principle / person vs system / individual vs institution)",
+        "检索至少3段相关经文并列出正反视角",
+        "按优先级打分 (doctrinal_alignment, ethical_score, harm_risk)",
+        "应用技法组合并生成可执行建议",
+        "若无法达成一致或触发escalation条件 → escalate"
+      ]
+    },
+    "denominational_lenses": {
+      "reformed": {
+        "emphasis": [
+          "sovereignty",
+          "scripture_alone"
+        ],
+        "recommendation": "强调律法/恩典的尾随对比"
+      },
+      "charismatic": {
+        "emphasis": [
+          "spirit_led",
+          "gifts"
+        ],
+        "recommendation": "重视圣灵当前工作与祷告经历的证据"
+      },
+      "catholic": {
+        "emphasis": [
+          "tradition",
+          "sacraments"
+        ],
+        "recommendation": "纳入教会传统与礼仪的视角"
+      },
+      "orthodox": {
+        "emphasis": [
+          "liturgical_theology",
+          "icons"
+        ],
+        "recommendation": "重视礼仪/神学连续性"
+      },
+      "evangelical": {
+        "emphasis": [
+          "personal_faith",
+          "mission"
+        ],
+        "recommendation": "强调个人悔改与宣教实践"
+      },
+      "liberal": {
+        "emphasis": [
+          "contextual_reading",
+          "social_justice"
+        ],
+        "recommendation": "注重社会正义与历史语境解释"
+      }
+    },
+    "ai_prayer_simulation": {
+      "action": "标注神学约束 + 运行伦理检查器",
+      "checks": [
+        "是否违反核心原则? (doctrinal_alignment >= 0.6 必要条件)",
+        "是否触发 anti_abuse? (若触发则标注并降低信心分)",
+        "长期后果是否符合永生盼望? (harm_risk <= threshold)",
+        "是否与用户声明/宗派偏好冲突? (若冲突则提供并列视角)",
+        "是否需要人工升级? (参见 escalation_protocol.triggers)"
+      ],
+      "output": {
+        "theological_flags": [
+          "list of matched verses and tensions"
+        ],
+        "ethical_checks": [
+          "doctrinal_alignment",
+          "ethical_score",
+          "harm_risk"
+        ],
+        "suggested_actions": [
+          "ranked list with rationale"
+        ]
+      }
+    },
+    "usage_limits": {
+      "max_reasoning_depth": 5,
+      "daily_decision_quota": 10,
+      "per_decision_token_limit": 2000,
+      "quota_reset_time": "00:00 UTC",
+      "exceed_action": "require_human_review"
+    },
+    "decision_metrics": {
+      "metrics_list": [
+        {
+          "name": "ethical_score",
+          "scale": "0..1",
+          "description": "基于技法与圣经匹配程度计算的伦理评分"
+        },
+        {
+          "name": "doctrinal_alignment",
+          "scale": "0..1",
+          "description": "与用户宗派/核心原则的一致性评分"
+        },
+        {
+          "name": "harm_risk",
+          "scale": "0..1",
+          "description": "短中期实际伤害风险评估"
+        },
+        {
+          "name": "confidence",
+          "scale": "0..1",
+          "description": "模型自评置信度"
+        }
+      ],
+      "accept_thresholds": {
+        "ethical_score": 0.5,
+        "doctrinal_alignment": 0.5
+      }
+    },
+    "escalation_protocol": {
+      "triggers": {
+        "complexity": "连续3次应用技法仍无解",
+        "severity": "涉及生死决策（堕胎、安乐死、自杀）",
+        "abuse": "触发2次以上anti_abuse警报",
+        "theological": "跨宗派重大分歧无法调和"
+      },
+      "routing_rules": {
+        "personal_crisis": {
+          "handler": "pastoral_care_team",
+          "contact": "crisis_hotline",
+          "response_time": "1小时"
+        },
+        "theological_dispute": {
+          "handler": "elder_board",
+          "process": "多方神学咨询",
+          "response_time": "7天"
+        },
+        "ethical_dilemma": {
+          "handler": "ethics_committee",
+          "process": "案例研讨会",
+          "response_time": "48小时"
+        }
+      },
+      "fallback": "此问题超出AI能力，请咨询您的牧师或属灵导师。"
+    },
+    "transparency": {
+      "explainability": "每个决策输出必须包含：匹配经文、应用技法、得分矩阵、审计ID",
+      "audit_log_schema": [
+        "timestamp",
+        "scenario_id",
+        "input_summary",
+        "verses_used",
+        "metrics",
+        "decision",
+        "actor",
+        "escalation_flag"
+      ]
+    }
+  },
+  "scenarios": [
+    {
+      "id": "SC-001",
+      "title": "职场假账难题",
+      "description": "公司高层要求会计对财报作假，信徒员工面临良心与职位风险",
+      "technique_sequence": [
+        "抗惑守心法",
+        "爱人推演术",
+        "服事破局法"
+      ],
+      "expected_output_schema": {
+        "decision": "string",
+        "metrics": {
+          "ethical_score": "num",
+          "doctrinal_alignment": "num",
+          "harm_risk": "num"
+        },
+        "audit_log": "object"
+      }
+    },
+    {
+      "id": "SC-002",
+      "title": "未婚怀孕/堕胎抉择",
+      "description": "未婚女信徒意外怀孕，男友施压要堕胎",
+      "technique_sequence": [
+        "抗惑守心法",
+        "爱人推演术",
+        "服事破局法",
+        "饶恕裁决法"
+      ],
+      "expected_output_schema": {
+        "decision": "string",
+        "resources": [
+          "counseling",
+          "financial_support",
+          "pastoral_care"
+        ],
+        "metrics": "object"
+      }
+    },
+    {
+      "id": "SC-003",
+      "title": "教会资源分配",
+      "description": "教会有救济金需分配，如何在爱与公义中做决定",
+      "technique_sequence": [
+        "爱人推演术",
+        "祷告模拟器",
+        "省校循环"
+      ],
+      "expected_output_schema": {
+        "allocation_plan": "object",
+        "metrics": "object",
+        "communication_plan": "string"
+      }
+    },
+    {
+      "id": "SC-004",
+      "title": "牧师道德失察",
+      "description": "教会领袖涉嫌不当行为，教会应如何处理",
+      "technique_sequence": [
+        "饶恕裁决法",
+        "冲突解决协议",
+        "escalation_protocol"
+      ],
+      "expected_output_schema": {
+        "investigation_steps": "array",
+        "pastoral_plan": "object",
+        "escalation": "boolean"
+      }
+    },
+    {
+      "id": "SC-005",
+      "title": "个人信仰危机（试探/抑郁/自杀念头）",
+      "description": "信徒在极端心理压力下寻求建议，可能涉及危机干预",
+      "technique_sequence": [
+        "抗惑守心法",
+        "服事破局法",
+        "escalation_protocol"
+      ],
+      "expected_output_schema": {
+        "immediate_actions": "array",
+        "referrals": "array",
+        "escalation_flag": "boolean"
+      }
+    }
+  ],
+  "docs": {
+    "quick_start": "docs/quick_start.md",
+    "full_manual": "docs/bible_cho_yao_manual_v1.5.md",
+    "case_library": "docs/case_library/",
+    "faq": "docs/faq.md"
+  },
+  "examples": {
+    "sample_decision_output": {
+      "scenario_id": "SC-001",
+      "decision": "私下呈报风险并提供合规替代方案；如不接受，向监管与董事会报告；同时准备就业替代。",
+      "metrics": {
+        "ethical_score": 0.86,
+        "doctrinal_alignment": 0.92,
+        "harm_risk": 0.22,
+        "confidence": 0.88
+      },
+      "audit_log": {
+        "timestamp": "2025-10-20T00:02:00Z",
+        "verses_used": [
+          "Matt22:37-40",
+          "Ex20:16",
+          "Matt4:1-11"
+        ],
+        "notes": "优先诚实与长远爱"
+      }
+    }
+  }
+}
